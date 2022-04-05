@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/SubDAOVerification/static/css/main.22b8619b.css",
-    "main.js": "/SubDAOVerification/static/js/main.528a1a0f.js",
+    "main.js": "/SubDAOVerification/static/js/main.21a7a25b.js",
     "index.html": "/SubDAOVerification/index.html",
     "main.22b8619b.css.map": "/SubDAOVerification/static/css/main.22b8619b.css.map",
-    "main.528a1a0f.js.map": "/SubDAOVerification/static/js/main.528a1a0f.js.map"
+    "main.21a7a25b.js.map": "/SubDAOVerification/static/js/main.21a7a25b.js.map"
   },
   "entrypoints": [
     "static/css/main.22b8619b.css",
-    "static/js/main.528a1a0f.js"
+    "static/js/main.21a7a25b.js"
   ]
 }
