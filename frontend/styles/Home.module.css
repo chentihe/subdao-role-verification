@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  width: auto;
+  height: auto;
+}
+
+.button {
+  width: 18rem;
+  height: 3rem;
+  border: none;
+  margin: auto;
+  margin-top: 10rem;
+  margin-right: 1rem;
+  background-image: url("../public/connect.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.result-msg {
+  width: 25rem;
+  height: 3rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  border: none;
+  margin: auto;
+  margin-top: 10rem;
+  margin-right: 14rem;
+}
+
+.logos-container {
+  position: fixed;
+  left: 30px;
+  bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.logos-container img {
+  width: 3rem;
+}
+@media screen and (min-width: 1024px) {
+  .button {
+    margin-right: 10rem;
+    width: 18rem;
+    height: 3rem;
+  }
+}
+@media screen and (max-width: 414px) {
+  .button {
+    margin-right: 0.5rem;
+    margin-top: 3rem;
+    width: 12rem;
+    height: 3rem;
+  }
+  .result-msg {
+    width: 11rem;
+    height: 3rem;
+    margin-top: 4rem;
+    margin-right: 0.5rem;
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .logos-container img {
+    width: 4rem;
+  }
+}
