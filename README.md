@@ -17,13 +17,14 @@ $touch .env
 ```
 4. Open .env and setup environment variables
 ```
+BOT_TOKEN = {YOUR_BOT_TOKEN}
+BOT_ID = {YOUR_BOT_ID}
+VERIFY_CHANNEL_ID = {YOUR_CHANNEL_ID}
 FRONTEND_URL = {YOUR_FRONTEND_URL}
-DISCORD_BOT_TOKEN ={ YOUR_DISCORD_BOT_TOKEN}
-PORT = {YOUR_PORT}
 ```
 5. Install dependencies
 ```
-npm i install
+npm i
 ```
 6. Start the server
 ```
@@ -47,7 +48,7 @@ NEXT_PUBLIC_BACKEND_API = {YOUR_BACKEND_URL}
 ```
 5. Install dependencies
 ```
-npm i install
+npm i
 ```
 6. Start the server
 ```

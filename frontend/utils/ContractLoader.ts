@@ -24,7 +24,7 @@ export async function verifyHeadDAO(
   try {
     const holder = await headDAONFT.balanceOf(address);
     const staker = await headDAOSTAKE.depositsOf(address);
-    console.log(process.env.NEXT_PUBLIC_BACKEND_API);
+
     const response = await fetch(
         `${process.env.NEXT_PUBLIC_BACKEND_API}/verifications?holder=${Number(holder)}&staker=${staker.length}`
     );

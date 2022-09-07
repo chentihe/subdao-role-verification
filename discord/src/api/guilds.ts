@@ -1,7 +1,7 @@
 import { Get, Router } from "@discordx/koa";
 import type { Context } from "koa";
-import { bot } from "../main.js";
 
+import { bot } from "../main.js";
 
 @Router()
 export class API {
@@ -10,7 +10,7 @@ export class API {
     context.body = `
       <div style="text-align: center">
         <h1>
-          <a href="https://discord-ts.js.org">discord.ts</a> rest api server example
+          <a href="https://discordx.js.org">discord.ts</a> rest api server example
         </h1>
         <p>
           powered by <a href="https://koajs.com/">koa</a> and
@@ -28,6 +28,6 @@ export class API {
   @Get()
   verifications(context: Context): void {
     bot.emit("resultsOfHeadDAO", context.request.query.holder, context.request.query.staker);
-    context.body = `Sending message to discord successfully!`;
+    context.body = `Sending message to discord sucessfully!`;
   }
 }
